@@ -1,0 +1,53 @@
+{
+  "name": "Executive Churn & Retention Theme",
+  "dataColors": [
+    "#1E293B",
+    "#E11D48",
+    "#10B981",
+    "#F59E0B",
+    "#3B82F6",
+    "#64748B",
+    "#94A3B8",
+    "#CBD5E1"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#0F172A",
+  "tableAccent": "#1E293B",
+  "textClasses": {
+    "callout": {
+      "fontSize": 24,
+      "fontFace": "Segoe UI Bold",
+      "color": "#0F172A"
+    },
+    "title": {
+      "fontSize": 12,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#1E293B"
+    },
+    "header": {
+      "fontSize": 10,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#475569"
+    },
+    "label": {
+      "fontSize": 9,
+      "fontFace": "Segoe UI",
+      "color": "#64748B"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }],
+        "border": [{ "show": true, "color": { "solid": { "color": "#E2E8F0" } }, "radius": 8 }],
+        "dropShadow": [{ "show": true, "color": { "solid": { "color": "#0F172A" } }, "position": "Outer", "preset": "Bottom" }],
+        "visualHeader": [{ "show": false }]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#F4F6F9" } }, "transparency": 0 }]
+      }
+    }
+  }
+}
